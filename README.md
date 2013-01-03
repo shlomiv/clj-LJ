@@ -1,10 +1,11 @@
-# ljc
+# clj-LJ
 
-A Clojure library designed to ... well, that part is up to you.
+A Clojure wrapper for LJ (Logical Java).
+Currently only shows how to implement the test case from LJ's Main.java in clojure.
 
 ## Usage
 
-FIXME
+ lein run
 
 ## License
 
