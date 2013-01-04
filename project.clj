@@ -4,7 +4,13 @@
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.4.0"]
-                 [junit/junit "4.10"] ]
+                 [junit/junit "4.10"]
+                 [org.scala-lang/scala-library "2.9.1"]]
+
+  :plugins [[lein-scalac "0.1.0"]]
+  :scala-source-path "scala"
   :main clj-LJ.core
-  :java-source-paths ["java/src"]
+
+  :prep-tasks ["scalac"]
+ ; :java-source-paths ["java/src"]
 )

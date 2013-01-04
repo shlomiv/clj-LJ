@@ -25,4 +25,6 @@
 
 (defn -main [& l]
   "Runs our puzzle"
-  (puzzle))
+  (do
+    (test.Test/main (into-array String []))
+    (puzzle)))
