@@ -11,6 +11,6 @@
   :scala-source-path "scala"
   :main clj-LJ.core
 
-  :prep-tasks ["scalac"]
- ; :java-source-paths ["java/src"]
+  :prep-tasks [ "javac" "scalac"]
+  :java-source-paths ["java/src"]
 )
